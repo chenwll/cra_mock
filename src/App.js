@@ -1,3 +1,4 @@
+import './App.css'
 function App() {
   const getResponse = () => {
     fetch('/mock/list').then((data) => {
